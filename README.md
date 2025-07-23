@@ -5,4 +5,4 @@
 ```bash
 sudo /opt/nvidia/jetson-io/jetson-io.py
 
-![GPIO PINOUT](images/gpio.png)
+![System Diagram](images/gpio.png)
