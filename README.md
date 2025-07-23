@@ -1,6 +1,7 @@
-## jetson_guide
-1. How to configure GPIO pins:
+#jetson_guide
+## How to configure GPIO pins
+1. Run the following command in a terminal:
 
-'''bash
+```bash
 sudo /opt/nvidia/jetson-io/jetson-io.py
-'''
+
