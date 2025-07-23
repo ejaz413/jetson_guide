@@ -4,5 +4,7 @@
 
 ```bash
 sudo /opt/nvidia/jetson-io/jetson-io.py
+```
 
 ![System Diagram](images/gpio.png)
+
