@@ -1,4 +1,4 @@
-#jetson_guide
+## Jetson Orin Nano Setup Guide
 
 ## Downgrade the Snap version to run firefox browser
 
