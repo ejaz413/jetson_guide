@@ -22,7 +22,8 @@ sudo /opt/nvidia/jetson-io/jetson-io.py
 
 1. Download the github repository to src folder of your workspace
 
-[Link Text](git clone -b ros2 https://github.com/Slamtec/rplidar_ros.git)
+```bash
+git clone -b ros2 https://github.com/Slamtec/rplidar_ros.git
 
 2. Build the workspace
 
