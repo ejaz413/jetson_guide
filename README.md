@@ -18,3 +18,30 @@ sudo /opt/nvidia/jetson-io/jetson-io.py
 
 ![System Diagram](images/gpio.png)
 
+## How to configure RpLidar C1
+
+1. Download the github repository to src folder of your workspace
+
+[Link Text](git clone -b ros2 https://github.com/Slamtec/rplidar_ros.git)
+
+2. Build the workspace
+
+```bash
+colcon build
+```
+3. check of Lidar is detected on usb port 
+
+```bash
+ls /dev/ttyUSB*
+```
+
+4. Fix the serial permision
+
+```bash
+sudo usermod -a -G dialout $USER
+sudo chmod 666 /dev/ttyUSB0
+
+5. Launch the rviz
+
+```bash
+ros2 launch rplidar_ros view_rplidar_c1_launch.py
