@@ -25,6 +25,8 @@ sudo /opt/nvidia/jetson-io/jetson-io.py
 ```bash
 git clone -b ros2 https://github.com/Slamtec/rplidar_ros.git
 
+```
+
 2. Build the workspace
 
 ```bash
@@ -41,8 +43,9 @@ ls /dev/ttyUSB*
 ```bash
 sudo usermod -a -G dialout $USER
 sudo chmod 666 /dev/ttyUSB0
-
+```
 5. Launch the rviz
 
 ```bash
 ros2 launch rplidar_ros view_rplidar_c1_launch.py
+```
